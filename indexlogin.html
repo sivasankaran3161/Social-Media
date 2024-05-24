@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        body {
+            margin: 0px;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 550px;
+        }
+
+        .form-container {
+            width: 350px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 5px;
+            padding: 10px;
+        }
+
+        h2 {
+            text-align: center;
+            font-style: italic;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            border: none;
+            border-radius: 3px;
+            background-color: #007bff;
+            color: #fff;
+            cursor: pointer;
+            /* to change the mouse cursor icon */
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+        /* answer */
+        input {
+            background-color: white;
+            color: white;
+            border-radius: 10px !important;
+        }
+
+        footer {
+            height: 50px;
+            width: 10px;
+            margin-left: 90px;
+            margin-bottom: 0;
+            bottom: 0px;
+        }
+
+        p {
+            translate: 53px 35px;
+        }
+
+        .fb {
+            margin-left: 110px;
+            margin-top: 10px;
+
+        }
+
+        .log-fb {
+            margin-left: 100px;
+            margin-top: 20px;
+            color: #007bff;
+        }
+
+    </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="form-container">
+                <div class="box">
+
+                </div>
+                <div class="box"></div>
+                <h2><img src="insta img.png" alt="instagram" height="100px"></h2>
+                <form action="#" method="post">
+                    <input type="text" name="username(or)gmail id" placeholder="Username (or) email,phone number"
+                        required>
+                    <input type="password" name="password" placeholder="Password" required>
+                    <input type="submit" value="Login">
+                    <div class="fb">_ _ _ _ _ or_ _ _ _ _</div>
+                    <div class="log-fb"><b>Log in with Facebook</b></div>
+
+
+                </form>
+            </div>
+
+        </div>
+
+        <footer>
+            <p><b>from</b></p><img src="meta img.png" alt="instagram" height="70px">
+        </footer>
+
+    </body>
+
+</html>
